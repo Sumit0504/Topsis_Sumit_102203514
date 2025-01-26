@@ -49,15 +49,8 @@ Fully compatible with Python 3.x, the package integrates seamlessly into data sc
 python -m Topsis_Sumit_Garg_102203514 "path/data.csv" "1, 1, 2, 3, 1" "+,-,+,-,-" " "result.csv"
 output.csv
 ### **Output CSV (result.csv)**
-Fund Name,P1,P2,P3,P4,P5,Topsis Score,Rank
-M1,0.91,0.83,6.0,53.0,15.19,0.5291896486216583,7
-M2,0.88,0.77,4.1,61.1,16.71,0.23405453078004776,6
-M3,0.67,0.45,3.5,59.4,16.01,0.2950515410938471,4
-M4,0.83,0.69,4.8,44.9,12.81,0.5757075943328146,1
-M5,0.74,0.55,6.7,66.3,18.57,0.4554328900694114,5
-M6,0.6,0.36,4.0,37.8,10.69,0.6096687433166923,3
-M7,0.72,0.52,4.4,40.7,11.59,0.6135283003946568,8
-M8,0.73,0.53,4.4,66.8,18.12,0.24793165958287922,2
+![out](https://github.com/user-attachments/assets/4aa359f0-b78f-44cc-ae5c-2dcea35abf6b)
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
