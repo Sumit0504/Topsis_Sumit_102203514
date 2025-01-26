@@ -32,19 +32,10 @@ Results are presented with ranked alternatives based on their closeness to the i
 Fully compatible with Python 3.x, the package integrates seamlessly into data science and analytics workflows. It can be used in Jupyter notebooks, scripts, or incorporated into larger applications.
 
 ---
-## How to Use
-Run the Package
-You can run the TOPSIS package directly from the command line using:
 
-python -m Topsis_Sumit_Garg_102203514 <input_file> <weights> <impacts> <output_file>
-Parameters
-<input_file>: Path to the CSV file containing the decision matrix.
-<weights>: Comma-separated weights for each criterion (e.g., 1, 1, 2, 3, 1).
-<impacts>: Comma-separated impacts for each criterion (e.g., +,-,+,-,- where + indicates a benefit criterion and - indicates a cost criterion).
-<output_file>: Path to the output CSV file where the results will be saved.
 ## How to install this package:
 ```
->> pip install Topsis-Sumit-Garg-102203514==0.1.1
+>> pip install Topsis-Sumit-Garg-102203514
 ```
 
 
@@ -53,3 +44,21 @@ Parameters
 >> python3 <package_name> data.csv "1,1,2,1,1" "+,+,-,+,-" "result.csv"
 ```
 ![alt text](run.png)
+
+## Example Usage
+### **Command**
+python -m Topsis_Sumit_Garg_102203514 "path/data.csv" "1, 1, 2, 3, 1" "+,-,+,-,-" " "result.csv"
+output.csv
+### **Output CSV (result.csv)**
+Fund Name,P1,P2,P3,P4,P5,Topsis Score,Rank
+M1,0.91,0.83,6.0,53.0,15.19,0.5291896486216583,7
+M2,0.88,0.77,4.1,61.1,16.71,0.23405453078004776,6
+M3,0.67,0.45,3.5,59.4,16.01,0.2950515410938471,4
+M4,0.83,0.69,4.8,44.9,12.81,0.5757075943328146,1
+M5,0.74,0.55,6.7,66.3,18.57,0.4554328900694114,5
+M6,0.6,0.36,4.0,37.8,10.69,0.6096687433166923,3
+M7,0.72,0.52,4.4,40.7,11.59,0.6135283003946568,8
+M8,0.73,0.53,4.4,66.8,18.12,0.24793165958287922,2
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
