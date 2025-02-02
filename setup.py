@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="Topsis_Sumit_Garg_102203514",
-    version="0.1.2",
+    version="0.1.3",
     author="Sumit Garg",
     author_email="sumit0000garg@gmail.com",
     description="A Python package for TOPSIS calculation",
