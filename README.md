@@ -32,25 +32,24 @@ Results are presented with ranked alternatives based on their closeness to the i
 Fully compatible with Python 3.x, the package integrates seamlessly into data science and analytics workflows. It can be used in Jupyter notebooks, scripts, or incorporated into larger applications.
 
 ---
+## How to Use
+Run the Package
+You can run the TOPSIS package directly from the command line using:
 
+python -m Topsis_Sumit_Garg_102203514 <input_file> <weights> <impacts> <output_file>
+Parameters
+<input_file>: Path to the CSV file containing the decision matrix.
+<weights>: Comma-separated weights for each criterion (e.g., 1, 1, 2, 3, 1).
+<impacts>: Comma-separated impacts for each criterion (e.g., +,-,+,-,- where + indicates a benefit criterion and - indicates a cost criterion).
+<output_file>: Path to the output CSV file where the results will be saved.
 ## How to install this package:
 ```
->> pip install Topsis-Sumit-Garg-102203514
+>> pip install Topsis-Sumit-Garg-102203514==0.1.1
 ```
 
 
 ### In Command Prompt
 ```
->> python -m Topsis_Sumit_Garg_102203514 "path/data.csv" "1, 1, 2, 3, 1" "+,-,+,-,-" " "result.csv"
+>> python3 <package_name> data.csv "1,1,2,1,1" "+,+,-,+,-" "result.csv"
 ```
-
-## Example Usage
-### **Command**
-python -m Topsis_Sumit_Garg_102203514 "path/data.csv" "1, 1, 2, 3, 1" "+,-,+,-,-" " "result.csv"
-output.csv
-### **Output CSV (result.csv)**
-![out](https://github.com/user-attachments/assets/4aa359f0-b78f-44cc-ae5c-2dcea35abf6b)
-
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+![alt text](run.png)
